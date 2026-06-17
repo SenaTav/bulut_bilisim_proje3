@@ -26,7 +26,7 @@ try:
     model_ozellikleri = model_bilgileri["ozellikler"]
 except FileNotFoundError:
     raise FileNotFoundError(
-        "model.pkl bulunamadı. Önce python train_model.py komutunu çalıştırın."
+        "model.pkl bulunamadı. Önce python train_model.py çalıştırın."
     )
 
 
@@ -206,6 +206,10 @@ def home():
                 <button type="submit">Tahmin Et</button>
             </form>
 
+            <div class="links">
+                <a href="/model-bilgisi" target="_blank">Model Bilgisi</a>
+                <a href="/tahmin-loglari" target="_blank">Tahmin Logları</a>
+            </div>
         </div>
     </body>
     </html>
