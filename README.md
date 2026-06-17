@@ -2,6 +2,9 @@
 
 Bu proje, Bulut Bilisim dersi icin gelistirilmis makine ogrenmesi tabanli bir ev fiyati tahmin uygulamasidir. Kullanici tarafindan girilen ev ozellikleri Random Forest Regressor modeliyle degerlendirilir ve tahmini satis fiyati hesaplanir. Tahmin bilgileri MongoDB Atlas veritabanina kaydedilir.
 
+
+video:https://youtu.be/HAjZLCpa6HE
+site linki:http://98.82.178.113:5000
 ---
 
 ## Sistem Mimarisi
